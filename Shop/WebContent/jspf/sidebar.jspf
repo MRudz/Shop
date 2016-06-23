@@ -1,0 +1,41 @@
+<h4 class="s-title">
+	<c:out value="${categories}" />
+	<span class="s-title-br"></span>
+</h4>
+
+<ul class="cat-list">
+	<li><a href="Controller?command=show-catalog"><c:out
+				value="${all}" /></a></li>
+	<li><a href="Controller?command=show-catalog&genre=rock"><c:out
+				value="${rock}" /></a></li>
+	<li><a href="Controller?command=show-catalog&genre=pop"><c:out
+				value="${pop}" /></a></li>
+	<li><a href="Controller?command=show-catalog&genre=instrumental"><c:out
+				value="${instrumental}" /></a></li>
+	<li><a href="Controller?command=show-catalog&genre=hiphop"><c:out
+				value="${hiphop}" /></a></li>
+	<li><a href="Controller?command=show-catalog&genre=blues"><c:out
+				value="${blues}" /></a></li>
+	<li><a href="Controller?command=show-catalog&genre=jazz"><c:out
+				value="${jazz}" /></a></li>
+	<li><a href="Controller?command=show-catalog&genre=reggae"><c:out
+				value="${reggae}" /></a></li>
+	<li><a href="Controller?command=show-catalog&genre=shanson"><c:out
+				value="${shanson}" /></a></li>
+	<li><a href="Controller?command=show-catalog&genre=country"><c:out
+				value="${country}" /></a></li>
+	<li><a href="Controller?command=show-catalog&genre=folk"><c:out
+				value="${folk}" /></a></li>
+</ul>
+
+<h4 class="s-title">
+	<c:out value="${search}" />
+	<span class="s-title-br"></span>
+</h4>
+
+<form action="Controller" method="post" class="s-search">
+	<input type="hidden" name="command" value="find-products" /> <input
+		type="text" name="name"
+		placeholder="<c:out value="${search_placeholder}"/>..." required /> <input
+		type="submit" value="" />
+</form>

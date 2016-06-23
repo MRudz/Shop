@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<command>
+		<command-name>add_to_basket</command-name>
+		<command-class>by.epam.shop.command.impl.AddToBasketCommand</command-class>
+	</command>
+	
+	<command>
+		<command-name>all_user_orders</command-name>
+		<command-class>by.epam.shop.command.impl.AllUserOrdersCommand</command-class>
+	</command>
+	
+	<command>
+		<command-name>change_local</command-name>
+		<command-class>by.epam.shop.command.impl.ChangeLocalCommand</command-class>
+	</command>
+	
+	<command>
+		<command-name>delete_from_basket</command-name>
+		<command-class>by.epam.shop.command.impl.DeleteFromBasketCommand</command-class>
+	</command>
+	
+	<command>
+		<command-name>find_products</command-name>
+		<command-class>by.epam.shop.command.impl.FindProductsCommand</command-class>
+	</command>
+	
+	<command>
+		<command-name>login</command-name>
+		<command-class>by.epam.shop.command.impl.LoginCommand</command-class>
+	</command>
+	
+	<command>
+		<command-name>logout</command-name>
+		<command-class>by.epam.shop.command.impl.LogoutCommand</command-class>
+	</command>
+	
+	<command>
+		<command-name>make_order</command-name>
+		<command-class>by.epam.shop.command.impl.MakeOrderCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>price_filter</command-name>
+		<command-class>by.epam.shop.command.impl.PriceFilterCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>register_user</command-name>
+		<command-class>by.epam.shop.command.impl.RegisterUserCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>show_catalog</command-name>
+		<command-class>by.epam.shop.command.impl.ShowCatalogCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>sort_products</command-name>
+		<command-class>by.epam.shop.command.impl.SortProductsCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>add_product</command-name>
+		<command-class>by.epam.shop.command.impl.admin.AddProductCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>add_to_blacklist</command-name>
+		<command-class>by.epam.shop.command.impl.admin.AddToBlacklistCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>all_users</command-name>
+		<command-class>by.epam.shop.command.impl.admin.AllUsersCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>change_sale</command-name>
+		<command-class>by.epam.shop.command.impl.admin.ChangeSaleCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>delete_product</command-name>
+		<command-class>by.epam.shop.command.impl.admin.DeleteProductCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>delete_user</command-name>
+		<command-class>by.epam.shop.command.impl.admin.DeleteUserCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>edit_product</command-name>
+		<command-class>by.epam.shop.command.impl.admin.EditProductCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>remove_from_blacklist</command-name>
+		<command-class>by.epam.shop.command.impl.admin.RemoveFromBlacklistCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>to_admin</command-name>
+		<command-class>by.epam.shop.command.impl.navigation.ToAdminCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>to_basket</command-name>
+		<command-class>by.epam.shop.command.impl.navigation.ToBasketCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>to_confirm</command-name>
+		<command-class>by.epam.shop.command.impl.navigation.ToConfirmCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>to_contacts</command-name>
+		<command-class>by.epam.shop.command.impl.navigation.ToContactsCommand</command-class>
+	</command>
+	
+	<command>
+		<command-name>to_edit</command-name>
+		<command-class>by.epam.shop.command.impl.navigation.ToEditCommand</command-class>
+	</command>
+	
+	
+	<command>
+		<command-name>to_main</command-name>
+		<command-class>by.epam.shop.command.impl.navigation.ToMainCommand</command-class>
+	</command>
+	
+	<command>
+		<command-name>to_signup</command-name>
+		<command-class>by.epam.shop.command.impl.navigation.ToSignupCommand</command-class>
+	</command>
+	
+	<command>
+		<command-name>rate_product</command-name>
+		<command-class>by.epam.shop.command.impl.RateProductCommand</command-class>
+	</command>
+
+</commands>

@@ -1,0 +1,24 @@
+<fmt:message bundle="${loc}" key="login" var="login" />
+<fmt:message bundle="${loc}" key="password" var="password" />
+<fmt:message bundle="${loc}" key="enter" var="enter" />
+<fmt:message bundle="${loc}" key="register" var="register"/>
+<fmt:message bundle="${loc}" key="cart" var="cart"/>
+<fmt:message bundle="${loc}" key="contacts" var="contacts"/>
+<fmt:message bundle="${loc}" key="welcome" var="welcome"/>
+<fmt:message bundle="${loc}" key="categories" var="categories"/>
+<fmt:message bundle="${loc}" key="category.all" var="all"/>
+<fmt:message bundle="${loc}" key="category.rock" var="rock"/>
+<fmt:message bundle="${loc}" key="category.pop" var="pop"/>
+<fmt:message bundle="${loc}" key="category.instrumental" var="instrumental"/>
+<fmt:message bundle="${loc}" key="category.hiphop" var="hiphop"/>
+<fmt:message bundle="${loc}" key="category.blues" var="blues"/>
+<fmt:message bundle="${loc}" key="category.jazz" var="jazz"/>
+<fmt:message bundle="${loc}" key="category.reggae" var="reggae"/>
+<fmt:message bundle="${loc}" key="category.shanson" var="shanson"/>
+<fmt:message bundle="${loc}" key="category.country" var="country"/>
+<fmt:message bundle="${loc}" key="category.folk" var="folk"/>
+<fmt:message bundle="${loc}" key="best" var="best"/>
+<fmt:message bundle="${loc}" key="search" var="search"/>
+<fmt:message bundle="${loc}" key="search.placeholder" var="search_placeholder"/>
+<fmt:message bundle="${loc}" key="my_orders" var="my_orders" />
+<fmt:message bundle="${loc}" key="account" var="account" />
